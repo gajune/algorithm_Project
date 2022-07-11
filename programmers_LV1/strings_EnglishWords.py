@@ -11,8 +11,7 @@ def solution(s):
             try:
                 number_list.index(check)
             except ValueError:
-                a += 1
-                continue
+                pass
             else:
                 answer = answer + str(number_list.index(check))
                 check = ''
